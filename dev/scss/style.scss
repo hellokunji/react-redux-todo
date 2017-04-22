@@ -1,0 +1,227 @@
+$primary: #3db39e;
+$white: white;
+
+$p_font: cursive;
+
+*{
+    box-sizing: border-box;
+    font-family: $p_font;
+}
+/*Initial*/
+.mainFrame{
+    background-color: $white;
+    max-width: 500px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    height: 500px;
+}
+.initial{
+	position: relative;
+	text-align: center;
+    height: 100%;
+}
+.initial>img{
+	width: 100px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.initial>span{
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;	
+}
+/*Login*/
+.login{
+
+}
+.login>img{
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+.login>h1{
+	color: $primary;
+    text-align: center;
+    font-family: $p_font;
+}
+.login>form{
+
+}
+.login>form>input{
+    display: block;
+    margin: 10px auto;
+    width: 180px;
+    height: 25px;
+    padding: 0 5px;
+    border: 1px solid grey;
+    background-color: white !important;
+}
+.login>form>button{
+    background-color: $primary;
+    display: block;
+    border: none;
+    color: white;
+    height: 25px;
+    display: block;
+    margin: auto;
+    width: 180px;
+}
+/*Main*/
+.main{
+    height: 100%;
+    width: 100%;
+}
+.mNav{
+    width: 30%;
+    float: left;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.mnLogo{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 1px 13px;
+}
+.mnLogo>a{
+    text-decoration: none;
+    display: block;
+}
+.mnLogo>a>img{
+    display: inline-block;
+    width: 25px;
+    vertical-align: middle;
+}
+.mnLogo>a>span{
+    display: inline-block;
+    height: 50px;
+    vertical-align: middle;
+    padding: 13px 11px;
+    color: #3db39e;
+}
+.mnLinks{
+    padding: 11px 13px;
+}
+.mnLinks>a{
+    text-decoration: none;
+    display: block;
+    color: grey;
+    padding: 5px 0;
+}
+.navActive{
+    color: #3db39e !important;
+}
+.mnFooter{
+    position: absolute;
+    bottom: 0;
+    padding: 0px 13px;
+}
+.mnFooter>p{
+    font-size: 12px;
+}
+.mnFooter>p>a{
+    text-decoration: none;
+}
+.mCont{
+    width: 70%;
+    float: left;
+}
+.mcForm{
+    height: 50px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 12px 15px;
+}
+.newTask{
+    text-decoration: none;
+}
+.newTask>form{
+    text-decoration: none;
+}
+.newTask>form>input{
+    text-decoration: none;
+    height: 25px;
+    background-color: rgba(0,0,0,0.01);
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 85%;
+    outline: #3db39e;
+    padding: 0 8px;
+}
+.newTask>form>button{
+    width: 15%;
+    background-color: #3db39e;
+    border: none;
+    height: 25px;
+    color: white;
+}
+.mcList{
+    height: auto;
+}
+.taskList{
+    text-decoration: none;
+
+}
+.tlItem{
+    padding: 15px 15px;
+}
+.tliStatus{
+    float: left;
+    width: 10%;
+}
+.tliStatus>input{
+    text-decoration: none;
+
+}
+.tliText{
+    float: left;
+    width: 90%;
+    font-size: 14px;
+}
+.tlitBefore{
+    float: left;
+    width: 100%;
+}
+.tbText{
+    float: left;
+    width: 80%;
+}
+.tbButton{
+float: left;
+    width: 20%;
+}
+.tbButton>button{
+    background: transparent;
+    border: none;
+    float: right;
+}
+.tbButton>button:first-child{
+    color: red;
+}
+.tbButton>button:last-child{
+    color: $primary;
+}
+.tlitAfter{
+    float: left;
+    width: 100%;
+    display: none;
+}
+.tlitAfter>form{
+    text-decoration: none;
+    
+}
+.tlitAfter>form>input{
+    text-decoration: none;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.01);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 85%;
+    outline: #3db39e;
+    padding: 0 8px;
+}
+.tlitAfter>form>button{
+    width: 15%;
+    background-color: green;
+    border: none;
+    height: 25px;
+    color: white;
+}
