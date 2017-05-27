@@ -1,4 +1,4 @@
-# TODO MVC with React, Redux and React Router
-TODO Application using React and Redux
+# TODO MVC
+TODO MVC Application using React, Redux and React Router
 
 <a href="https://projects.todo.kunjimeena.com">Live Demo</a>
