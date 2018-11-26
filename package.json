@@ -1,5 +1,5 @@
 {
-  "name": "TODO App by Kunji Meena",
+  "name": "todoapp",
   "version": "1.0.0",
   "description": "TODO Application Using React and Redux",
   "main": "index.js",
